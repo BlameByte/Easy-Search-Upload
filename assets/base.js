@@ -23,7 +23,7 @@ function loadScript(url) {
 
 // This function calls the Google Custom Search API, which creates a new JavaScript element, which then callbacks the searchCB(response) function.
 function loadImgs() {
-	var key = 'AIzaSyAUF6p70gh0uB6eWfrd7q7NQX5aB_dQFW0';
+	var key = 'AIzaSyDckHRN14SvPwls_6lUYIDBdFDqrg0GI_E';
 	var cx = '003201412322273164230:dzwud6n2cq0';
 	var q = document.getElementById('q').value;
 	loadScript('https://www.googleapis.com/customsearch/v1?key='+key+'&cx='+cx+'&q='+q+'&searchType=image&callback=searchCB');
